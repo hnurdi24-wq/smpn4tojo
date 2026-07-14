@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMP Negeri 4 Tojo - Cerdas, Berkarakter, Inovatif</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gold-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%);
+        }
+        .navy-gradient {
+            background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- 1. NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md text-white border-b border-slate-800 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <div class="p-2.5 bg-amber-500 rounded-xl shadow-lg shadow-amber-500/20">
+                        <i class="fas fa-graduation-cap text-2xl text-slate-950"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold tracking-wider block">SMP NEGERI 4 TOJO</span>
+                        <span class="text-xs text-amber-400 font-medium tracking-widest block uppercase">Cerdas & Berkarakter</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-1">
+                    <a href="#beranda" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-800 transition">Beranda</a>
+                    <a href="#profil" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-800 transition">Profil</a>
+                    <a href="#akademik" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-800 transition">Akademik</a>
+                    <a href="#simulasi" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-800 transition">Kalkulator Mutu</a>
+                    <a href="#ppdb" class="ml-4 px-5 py-2 rounded-lg text-sm font-semibold gold-gradient text-slate-950 hover:opacity-90 shadow-lg shadow-amber-500/10 transition">PPDB Online</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <section id="beranda" class="navy-gradient text-white relative py-24 md:py-32 overflow-hidden border-b-4 border-amber-500">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 text-center md:text-left">
+                <span class="px-4 py-1.5 bg-amber-500/20 text-amber-400 rounded-full text-xs font-semibold tracking-wide uppercase border border-amber-500/30">Selamat Datang</span>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                    Membentuk Generasi <span class="text-transparent bg-clip-text gold-gradient">Unggul & Berbudaya</span>
+                </h1>
+                <p class="text-base md:text-lg text-slate-300 max-w-xl mx-auto md:mx-0 leading-relaxed">
+                    SMP Negeri 4 Tojo berkomitmen menyediakan ekosistem belajar yang adaptif, inovatif, dan berlandaskan nilai-nilai luhur budi pekerti di wilayah Tojo.
+                </p>
+                <div class="pt-4 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                    <a href="#ppdb" class="px-8 py-3.5 rounded-xl font-bold text-slate-950 gold-gradient shadow-xl shadow-amber-500/20 hover:scale-105 transition-transform text-center">Daftar PPDB 2026</a>
+                    <a href="#profil" class="px-8 py-3.5 rounded-xl font-semibold border border-slate-700 hover:bg-slate-850 transition text-center">Jelajahi Profil</a>
+                </div>
+            </div>
+            <!-- Statistik Sekolah Mini -->
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-slate-900/50 backdrop-blur border border-slate-800 p-6 rounded-2xl text-center">
+                    <div class="text-3xl md:text-4xl font-extrabold text-amber-400 mb-1">350+</div>
+                    <div class="text-xs text-slate-400 font-medium uppercase tracking-wider">Siswa Aktif</div>
+                </div>
+                <div class="bg-slate-900/50 backdrop-blur border border-slate-800 p-6 rounded-2xl text-center">
+                    <div class="text-3xl md:text-4xl font-extrabold text-amber-400 mb-1">24</div>
+                    <div class="text-xs text-slate-400 font-medium uppercase tracking-wider">Guru Kompeten</div>
+                </div>
+                <div class="bg-slate-900/50 backdrop-blur border border-slate-800 p-6 rounded-2xl text-center">
+                    <div class="text-3xl md:text-4xl font-extrabold text-amber-400 mb-1">12</div>
+                    <div class="text-xs text-slate-400 font-medium uppercase tracking-wider">Ruang Kelas</div>
+                </div>
+                <div class="bg-slate-900/50 backdrop-blur border border-slate-800 p-6 rounded-2xl text-center">
+                    <div class="text-3xl md:text-4xl font-extrabold text-amber-400 mb-1">A</div>
+                    <div class="text-xs text-slate-400 font-medium uppercase tracking-wider">Akreditasi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PROFIL & VISI MISI -->
+    <section id="profil" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl mb-4">Profil Sekolah</h2>
+            <div class="h-1 w-20 gold-gradient mx-auto rounded-full mb-6"></div>
+            <p class="text-slate-600">Membangun masa depan lewat pondasi pendidikan yang kokoh, transparan, dan berorientasi global.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-stretch">
+            <div class="bg-white border border-slate-200 p-8 rounded-3xl shadow-sm flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-eye text-xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Visi Sekolah</h3>
+                    <p class="text-slate-600 leading-relaxed text-lg italic">
+                        "Terwujudnya insan berprestasi, berkarakter mulia, menguasai IPTEK, dan berwawasan lingkungan pada tahun 2028."
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 p-8 rounded-3xl shadow-sm">
+                <div class="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center mb-6">
+                    <i class="fas fa-bullseye text-xl text-amber-600"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Misi Sekolah</h3>
+                <ul class="space-y-3 text-slate-600">
+                    <li class="flex items-start"><i class="fas fa-check-circle text-amber-500 mt-1 mr-3 flex-shrink-0"></i> <span>Menyelenggarakan pembelajaran efektif guna menumbuhkan daya pikir kritis dan kreatif.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-amber-500 mt-1 mr-3 flex-shrink-0"></i> <span>Menanamkan nilai budi pekerti melalui pembiasaan kehidupan keagamaan dan sosial.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-amber-500 mt-1 mr-3 flex-shrink-0"></i> <span>Meningkatkan fasilitas berbasis teknologi informasi untuk menunjang merdeka belajar.</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PROGRAM AKADEMIK & EKSTRAKURIKULER -->
+    <section id="akademik" class="py-20 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl mb-4">Program Unggulan</h2>
+                <div class="h-1 w-20 gold-gradient mx-auto rounded-full mb-6"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/60">
+                    <div class="w-10 h-10 rounded-lg bg-indigo-50 flex items-center justify-center mb-4"><i class="fas fa-code text-indigo-600"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">Literasi Digital</h4>
+                    <p class="text-sm text-slate-650">Pembelajaran dasar komputer, pemrograman logika tingkat dasar, dan pemanfaatan AI secara bijak.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/60">
+                    <div class="w-10 h-10 rounded-lg bg-emerald-50 flex items-center justify-center mb-4"><i class="fas fa-leaf text-emerald-600"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">Eco-School Project</h4>
+                    <p class="text-sm text-slate-650">Pengembangan karakter peduli lingkungan melalui pengelolaan daur ulang dan apotek hidup sekolah.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/60">
+                    <div class="w-10 h-10 rounded-lg bg-amber-50 flex items-center justify-center mb-4"><i class="fas fa-trophy text-amber-600"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">Bimbingan Prestasi</h4>
+                    <p class="text-sm text-slate-650">Intensif persiapan kompetisi Sains (OSN), olahraga (O2SN), dan seni tingkat kabupaten/provinsi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. INTERAKTIF: KALKULATOR MUTU SEKOLAH -->
+    <section id="simulasi" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-900 text-white rounded-3xl overflow-hidden shadow-2xl border border-slate-800 grid lg:grid-cols-12">
+            <div class="p-8 lg:p-12 lg:col-span-7 space-y-6">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-amber-400">Fitur Transparansi</span>
+                    <h3 class="text-3xl font-bold tracking-tight mt-1">Kalkulator Simulasi Mutu</h3>
+                </div>
+                <p class="text-sm text-slate-400">
+                    Gunakan panel geser di bawah ini untuk mengukur estimasi indeks kelayakan mutu dan prediksi peringkat akreditasi SMPN 4 Tojo secara berkala.
+                </p>
+
+                <!-- Input Sliders -->
+                <div class="space-y-4 pt-4">
+                    <div>
+                        <div class="flex justify-between text-sm font-medium mb-1">
+                            <label for="kurikulum">Implementasi Kurikulum</label>
+                            <span id="val-kurikulum" class="text-amber-400">85%</span>
+                        </div>
+                        <input type="range" id="kurikulum" min="0" max="100" value="85" class="w-full accent-amber-500 bg-slate-800 rounded-lg appearance-none h-2" oninput="hitungMutu()">
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-sm font-medium mb-1">
+                            <label for="guru">Kompetensi Pendidik</label>
+                            <span id="val-guru" class="text-amber-400">80%</span>
+                        </div>
+                        <input type="range" id="guru" min="0" max="100" value="80" class="w-full accent-amber-500 bg-slate-800 rounded-lg appearance-none h-2" oninput="hitungMutu()">
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-sm font-medium mb-1">
+                            <label for="fasilitas">Kelengkapan Fasilitas</label>
+                            <span id="val-fasilitas" class="text-amber-400">75%</span>
+                        </div>
+                        <input type="range" id="fasilitas" min="0" max="100" value="75" class="w-full accent-amber-500 bg-slate-800 rounded-lg appearance-none h-2" oninput="hitungMutu()">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hasil Output Skor -->
+            <div class="bg-slate-950 p-8 lg:p-12 lg:col-span-5 flex flex-col justify-center items-center border-t lg:border-t-0 lg:border-l border-slate-800 text-center">
+                <div class="text-sm uppercase tracking-wider text-slate-400 font-semibold mb-2">Indeks Mutu Simulasi</div>
+                <div id="skor-total" class="text-6xl font-black text-transparent bg-clip-text gold-gradient mb-2">80.0</div>
+                <div class="text-xs text-slate-500 mb-6">Skala Penilaian Maksimal 100.0</div>
+                
+                <div class="px-6 py-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-xl font-bold inline-block text-lg" id="badge-akreditasi">
+                    Terakreditasi A (Sangat Baik)
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PPDB ONLINE INTERAKTIF WITH VALIDATION -->
+    <section id="ppdb" class="py-20 bg-slate-900 text-white relative border-t-4 border-amber-500">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-transparent bg-clip-text gold-gradient sm:text-4xl mb-3">Portal PPDB Online 2026</h2>
+                <p class="text-sm text-slate-400">Isi Formulir Pendaftaran Peserta Didik Baru dengan data yang valid dan benar.</p>
+            </div>
+
+            <form id="formPPDB" class="bg-slate-950 border border-slate-850 p-8 rounded-3xl shadow-2xl space-y-6" onsubmit="prosesPendaftaran(event)">
+                <!-- Baris 1: Biodata -->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Nama Lengkap Calon Siswa *</label>
+                        <input type="text" id="namaSiswa" required class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">NISN (Nomor Induk Siswa Nasional) *</label>
+                        <input type="number" id="nisn" required class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition text-sm">
+                    </div>
+                </div>
+
+                <!-- Baris 2: Sekolah & Kontak -->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Sekolah Asal (SD/MI) *</label>
+                        <input type="text" id="sekolahAsal" required class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">No. WhatsApp Orang Tua *</label>
+                        <input type="tel" id="noHp" required placeholder="Contoh: 081234567xxx" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition text-sm">
+                    </div>
+                </div>
+
+                <!-- Jalur Pendaftaran -->
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Jalur Pendaftaran *</label>
+                    <select id="jalur" required class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition text-sm">
+                        <option value="">-- Pilih Jalur --</option>
+                        <option value="Zonasi">Zonasi (Kedekatan Wilayah)</option>
+                        <option value="Afirmasi">Afirmasi (Keluarga Kurang Mampu)</option>
+                        <option value="Prestasi">Prestasi (Akademik / Non-Akademik)</option>
+                        <option value="Perpindahan">Perpindahan Tugas Orang Tua</option>
+                    </select>
+                </div>
+
+                <div class="pt-4">
+                    <button type="submit" class="w-full py-4 rounded-xl font-bold text-slate-950 gold-gradient shadow-xl shadow-amber-500/10 hover:opacity-95 transition-all flex items-center justify-center space-x-2">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>Kirim Pendaftaran & Unduh Bukti</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-500 text-xs py-8 text-center border-t border-slate-900">
+        <p>&copy; 2026 SMP Negeri 4 Tojo. Seluruh Hak Cipta Dilindungi Undang-Undang.</p>
+    </footer>
+
+    <!-- MODAL POPUP JAVASCRIPT: NOTIFIKASI PPDB -->
+    <div id="modalSuccess" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-white text-slate-900 rounded-3xl p-8 max-w-md w-full border border-slate-200 shadow-2xl text-center space-y-6 transform scale-95 transition-transform">
+            <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-3xl mx-auto">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div>
+                <h4 class="text-xl font-bold mb-1">Pendaftaran Berhasil!</h4>
+                <p class="text-sm text-slate-500">Data calon siswa telah tersimpan di sistem data PPDB online.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-2xl text-left space-y-2 border border-slate-100 text-sm">
+                <div><span class="text-slate-400 font-medium">Nomor Reg:</span> <span id="resReg" class="font-bold text-slate-800"></span></div>
+                <div><span class="text-slate-400 font-medium">Nama:</span> <span id="resNama" class="font-medium text-slate-800"></span></div>
+                <div><span class="text-slate-400 font-medium">Jalur:</span> <span id="resJalur" class="font-semibold text-amber-600"></span></div>
+            </div>
+            <button onclick="tutupModal()" class="w-full py-3 bg-slate-900 text-white font-semibold rounded-xl hover:bg-slate-800 transition">
+                Selesai & Cetak Bukti
+            </button>
+        </div>
+    </div>
+
+    <!-- CODE LOGIC (JAVASCRIPT) -->
+    <script>
+        // 1. Fungsi Kalkulator Mutu Sekolah
+        function hitungMutu() {
+            const k = parseInt(document.getElementById('kurikulum').value);
+            const g = parseInt(document.getElementById('guru').value);
+            const f = parseInt(document.getElementById('fasilitas').value);
+
+            // Update label persentase slider
+            document.getElementById('val-kurikulum').innerText = k + '%';
+            document.getElementById('val-guru').innerText = g + '%';
+            document.getElementById('val-fasilitas').innerText = f + '%';
+
+            // Algoritma hitung bobot rata-rata
+            const total = ((k * 0.4) + (g * 0.35) + (f * 0.25)).toFixed(1);
+            document.getElementById('skor-total').innerText = total;
+
+            // Klasifikasi Akreditasi
+            const badge = document.getElementById('badge-akreditasi');
+            if (total >= 86) {
+                badge.innerText = "Terakreditasi A (Sangat Baik)";
+                badge.className = "px-6 py-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-xl font-bold inline-block text-lg";
+            } else if (total >= 71) {
+                badge.innerText = "Terakreditasi B (Baik)";
+                badge.className = "px-6 py-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 rounded-xl font-bold inline-block text-lg";
+            } else {
+                badge.innerText = "Terakreditasi C (Cukup)";
+                badge.className = "px-6 py-2 bg-rose-500/10 border border-rose-500/20 text-rose-400 rounded-xl font-bold inline-block text-lg";
+            }
+        }
+
+        // 2. Fungsi Validasi & Kirim Formulir PPDB
+        function prosesPendaftaran(event) {
+            event.preventDefault(); // Menahan refresh page bawaan form submit
+
+            const nama = document.getElementById('namaSiswa').value;
+            const nisn = document.getElementById('nisn').value;
+            const jalur = document.getElementById('jalur').value;
+
+            // Membuat nomor registrasi unik acak
+            const noRegistrasi = "REG-4TOJO-" + Math.floor(1000 + Math.random() * 9000);
+
+            // Pasang data ke modal pop-up
+            document.getElementById('resReg').innerText = noRegistrasi;
+            document.getElementById('resNama').innerText = nama;
+            document.getElementById('resJalur').innerText = jalur;
+
+            // Tampilkan modal pop-up sukses
+            const modal = document.getElementById('modalSuccess');
+            modal.classList.remove('hidden');
+        }
+
+        function tutupModal() {
+            document.getElementById('modalSuccess').classList.add('hidden');
+            document.getElementById('formPPDB').reset();
+            window.print(); // Secara otomatis memicu dialog cetak bukti pendaftaran
+        }
+    </script>
+</body>
+</html>
